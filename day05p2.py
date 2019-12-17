@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open("day3.txt")
+sys.stdin = open("day5.txt")
 
 inp = [int(i) for i in input().split(",")]
 
