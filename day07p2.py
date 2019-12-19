@@ -77,7 +77,6 @@ class IntCode:
     def __init__(self, program, inputs=[]):
         self.program = program[:]
         self.inputs = inputs[::-1]
-        self.memory = {}
         self.output = None
         self.halted = False
         self.pc = 0
